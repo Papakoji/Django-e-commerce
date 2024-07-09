@@ -1,0 +1,7 @@
+How to handle circular relationships?
+
+When you create a one to many relationship in two classes for each other, it ends up creating an error where the earlier defined class cannot be referenced by the other one. 
+
+Here what we can do is communicate to Django that there is no need for creating the reverse relationship. This effectively avoids the problem. 
+
+we can do this by setting related_name attribute to '+' 
