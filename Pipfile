@@ -5,8 +5,42 @@ name = "pypi"
 
 [packages]
 django = "*"
+<<<<<<< HEAD
 
 [dev-packages]
 
 [requires]
 python_version = "3.11"
+=======
+django-debug-toolbar = "*"
+mysqlclient = "*"
+djangorestframework = "*"
+drf-nested-routers = "*"
+django-filter = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+pillow = "*"
+django-cors-headers = "*"
+django-templated-mail = "*"
+redis = "*"
+celery = "*"
+flower = "*"
+django-redis = "*"
+whitenoise = "*"
+gunicorn = "*"
+dj-database-url = "*"
+django-silk = "*"
+v = "*"
+
+[dev-packages]
+autopep8 = "*"
+pytest = "*"
+pytest-django = "*"
+pytest-watch = "*"
+model-bakery = "*"
+locust = "*"
+django-silk = "*"
+
+[requires]
+python_version = "3.9"
+>>>>>>> ceea501 (Prepared the code for deployment)
