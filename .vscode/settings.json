@@ -1,3 +1,11 @@
 {
+<<<<<<< HEAD
     "git.ignoreLimitWarning": true
+=======
+  "python.testing.pytestArgs": [
+    "."
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
+>>>>>>> ceea501 (Prepared the code for deployment)
 }
